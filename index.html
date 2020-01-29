@@ -5,12 +5,23 @@
     <meta charset="UTF-8">
     <title>Coldplay</title>
     <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 </head>
+
+<!-- elke pagina heeft een uniek ID, mocht er iets op 1 pagina anders zijn dan op de ander kan dit met een ID in 1x veranderd worden -->
 
 <body id="home">
 
+    <!-- Geanimeerde vlinders die op de pagina rond vliegen, horen niet echt thuis in een header of main of footer maar zweven erboven, daarom zitten ze los in de body -->
+    <!-- foto bron: http://www.coldplay.com -->
+    <img class="butterflyBlue" src="images/Butterfly.png" alt="a blue and purple gradient butterfly fluttering around with ease">
+    <img class="butterflyOrange" src="images/Butterfly_2.png" alt="an orange and pink gradient butterfly fluttering around with ease">
+    <img class="butterflyTurq" src="images/Butterfly_3.png" alt="a blue and turquoise gradient butterfly fluttering around with ease">
+    <img class="butterflyGreen" src="images/Butterfly_4.png" alt="A blue and green gradient butterfly fluttering around with ease">
+
     <header>
-       <img class="sunset" src="images/toggle_moon.png" alt="Image of a cresent moon">
+        <img Id="sunset" src="images/toggle_moon.png" alt="Image of a cresent moon">
+        <img id="sunrise" src="images/toggle_sun.png" alt="Image of a sun">
         <!-- foto bron: http://www.coldplay.com -->
         <a href="index.html"><img class="coldplaylogo" src="images/coldplayGold.png" alt="coldplay logo ahfod-era"></a>
         <nav class="menu">
@@ -25,36 +36,57 @@
 
     <main>
 
-
         <section>
             <!-- Bron: https://www.musicbusinessworldwide.com/they-played-a-tiny-cafe-there-were-four-people-in-the-audience/ -->
-            <a href="members.html"><img src="images/home-members.jpg" alt="A picture of the band with their managers Phil and Dave" class="home-img"></a>
+            <a href="members.html">
+                <figure>
+                    <img src="images/org-home-members.jpg" alt="A picture of the band with their managers Phil and Dave" class="home-img">
+                    <figcaption>Members</figcaption>
+                </figure>
+            </a>
         </section>
         <section>
             <!-- Bron: https://twitter.com/coldplay/status/606164001546846208 -->
-            <a href="history.html"><img src="images/home-history.jpg" alt="A picture of the band playing live in 1999" class="home-img"></a>
+            <a href="history.html">
+                <figure>
+                    <img src="images/org-home-history.png" alt="A picture of the band playing live in 1999" class="home-img">
+                    <figcaption>History</figcaption>
+                </figure>
+            </a>
         </section>
         <section>
             <!-- Bron: https://barcelona-home.com/events-and-guide/event-pro/coldplay-in-concert/ -->
-            <a href="live.html"><img src="images/home-live.jpg" alt="A picture of the band live at the AHFOD tour" class="home-img"></a>
+            <a href="live.html">
+                <figure>
+                    <img src="images/org-home-live.jpg" alt="A picture of the band live at the AHFOD tour" class="home-img">
+                    <figcaption>Live Shows</figcaption>
+                </figure>
+            </a>
         </section>
         <section>
             <!-- Bron: http://press.atlanticrecords.com/coldplay/ -->
-            <a href="http://coldplay.com/homepage/"><img src="images/home-coldplay-link.jpg" alt="A promo picture of the AHFOD album" class="home-img"></a>
+            <a href="http://coldplay.com/homepage/">
+            <figure>
+                <img src="images/org-home-coldplay-link.jpg" alt="A promo picture of the AHFOD album" class="home-img">
+                <figcaption>Coldplay.com</figcaption>
+            </figure>
+            </a>
         </section>
 
     </main>
-    
-    
+
+
     <footer>
         <ul>
-        <li class="menu"><a href="http://coldplay.com/homepage/">Coldplay.com</a></li>
-        <li class="menu"><a href="https://twitter.com/coldplay">Twitter</a></li>
-        <li class="menu"><a href="https://www.facebook.com/coldplay">Facebook</a></li>
-        <li class="menu"><a href="https://www.instagram.com/coldplay/">Instagram</a></li>
+            <li class="menu"><a href="http://coldplay.com/homepage/">Coldplay.com</a></li>
+            <li class="menu"><a href="https://twitter.com/coldplay">Twitter</a></li>
+            <li class="menu"><a href="https://www.facebook.com/coldplay">Facebook</a></li>
+            <li class="menu"><a href="https://www.instagram.com/coldplay/">Instagram</a></li>
         </ul>
     </footer>
-    
+
+    <img class="balloon" src="images/balloon.png" alt="A balloon with a basket just gently floating around">
+
     <script src="js/scripts.js"></script>
 </body>
 

@@ -5,13 +5,24 @@
     <meta charset="UTF-8">
     <title>Colplay members</title>
     <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 </head>
 
+<!-- elke pagina heeft een uniek ID, mocht er iets op 1 pagina anders zijn dan op de ander kan dit met een ID in 1x veranderd worden -->
 <body id="members">
+    
+     <!-- Geanimeerde vlinders die op de pagina rond vliegen, horen niet echt thuis in een header of main of footer maar zweven erboven, daarom zitten ze los in de body -->
+     <!-- foto bron: http://www.coldplay.com -->
+    <img class="butterflyBlue" src="images/Butterfly.png" alt="a blue and purple gradient butterfly fluttering around with ease">
+    <img class="butterflyOrange" src="images/Butterfly_2.png" alt="an orange and pink gradient butterfly fluttering around with ease">
+    <img class="butterflyTurq" src="images/Butterfly_3.png" alt="a blue and turquoise gradient butterfly fluttering around with ease">
+    <img class="butterflyGreen" src="images/Butterfly_4.png" alt="A blue and green gradient butterfly fluttering around with ease">
+
     <header>
         <nav class="menu">
-          <!-- foto bron: http://www.coldplay.com -->
-           <img class="sunset" src="images/toggle_moon.png" alt="Image of a cresent moon">
+            <!-- foto bron: http://www.coldplay.com -->
+            <img Id="sunset" src="images/toggle_moon.png" alt="Image of a cresent moon">
+            <img id="sunrise" src="images/toggle_sun.png" alt="Image of a sun">
             <a href="index.html"><img class="coldplaylogo" src="images/coldplayGold.png" alt="coldplay logo ahfod-era"></a>
             <ul>
                 <li class="menu"><a href="index.html">Home</a></li>
@@ -26,11 +37,11 @@
 
     <main>
         <section>
-           <!-- Bronnen: https://www.walesonline.co.uk/lifestyle/nostalgia/images-show-coldplay-last-time-13320485
+            <!-- Bronnen: https://www.walesonline.co.uk/lifestyle/nostalgia/images-show-coldplay-last-time-13320485
            https://en.wikipedia.org/wiki/Guy_Berryman -->
             <h2>GUY BERRYMAN</h2>
             <img src="images/guy-berryman.jpg" alt="A photo of Guy Berryman playinh bass on the AHFOD tour">
-            
+
             <h3>ABOUT GUY</h3>
             <table>
                 <tbody>
@@ -65,15 +76,15 @@
                 </tbody>
             </table>
         </section>
-      
+
 
         <section>
-           <!-- Bronnen: http://www.zimbio.com/photos/Jonny+Buckland/Coldplay+Performs+Rose+Bowl/I6F-Y9TcaIg
+            <!-- Bronnen: http://www.zimbio.com/photos/Jonny+Buckland/Coldplay+Performs+Rose+Bowl/I6F-Y9TcaIg
            https://en.wikipedia.org/wiki/Jonny_Buckland -->
             <h2>JONNY BUCKLAND</h2>
             <img src="images/jonny-buckland.jpg" alt="A picture of Jonny Buckland playing guitar at the AHFOD tour">
-                       
-             <h3>ABOUT JONNY</h3>
+
+            <h3>ABOUT JONNY</h3>
             <table>
                 <tbody>
                     <tr>
@@ -107,10 +118,10 @@
 
 
         <section>
-           <!-- Bronnen: https://en.wikipedia.org/wiki/Will_Champion -->
+            <!-- Bronnen: https://en.wikipedia.org/wiki/Will_Champion -->
             <h2>WILL CHAMPION</h2>
             <img src="images/will-champion.jpg" alt="A picture of Will Champion playing percussion durring Viva La Vida at the AHFOD tour">
-            
+
             <h3>ABOUT WILL</h3>
             <table>
                 <tbody>
@@ -140,16 +151,16 @@
                     </tr>
                 </tbody>
             </table>
-            
+
         </section>
-        
-        
+
+
         <section>
-           <!-- Bronnen: https://www.billboard.com/articles/columns/pop/7890208/coldplay-chris-martin-washington-redskins-dc-concert-video
+            <!-- Bronnen: https://www.billboard.com/articles/columns/pop/7890208/coldplay-chris-martin-washington-redskins-dc-concert-video
            https://en.wikipedia.org/wiki/Chris_Martin -->
             <h2>CHRIS MARTIN</h2>
             <img src="images/chris-martin.jpg" alt="A picture of Chris playing the acoustic guitar at the AHFOD tour">
-            
+
             <h3>ABOUT CHRIS</h3>
             <table>
                 <tbody>
@@ -179,17 +190,17 @@
                     </tr>
                 </tbody>
             </table>
-      
-              
+
+
         </section>
 
         <section>
-           <!-- Bronnen: http://coldplay.com/live-blog-from-hannover-today/
+            <!-- Bronnen: http://coldplay.com/live-blog-from-hannover-today/
            https://en.wikipedia.org/wiki/Phil_Harvey_(manager) -->
             <h2>PHIL HARVEY</h2>
             <img src="images/phil-harvey.jpg" alt="A picture of a surprised Phil Harvey wandering around the stadium during the Mylo Xyloto tour">
-            
-        <h3>ABOUT PHIL</h3>
+
+            <h3>ABOUT PHIL</h3>
             <table>
                 <tbody>
                     <tr>
@@ -214,11 +225,11 @@
                     </tr>
                 </tbody>
             </table>
-            
+
         </section>
     </main>
 
-   <footer>
+    <footer>
         <ul>
             <li class="menu"><a href="http://coldplay.com/homepage/">Coldplay.com</a></li>
             <li class="menu"><a href="https://twitter.com/coldplay">Twitter</a></li>
@@ -226,6 +237,9 @@
             <li class="menu"><a href="https://www.instagram.com/coldplay/">Instagram</a></li>
         </ul>
     </footer>
+
+    <img class="balloon" src="images/balloon.png" alt="A balloon with a basket just gently floating around">
+
     <script src="js/scripts.js"></script>
 
 </body>
